@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![MedTrust Logo](docs/assets/logo.png)
+![MedTrust Logo](docs/assets/logo-text.svg)
 
 **Making Healthcare Accessible, Trusted, and Actionable for Every Indian**
 

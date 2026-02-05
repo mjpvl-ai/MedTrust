@@ -1,0 +1,44 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Background Circle -->
+    <circle cx="50" cy="50" r="47" fill="#0066CC" opacity="0.1"/>
+    
+    <!-- Main Circle -->
+    <circle cx="50" cy="50" r="42" fill="#0066CC"/>
+    
+    <!-- Medical Cross -->
+    <rect x="42" y="27" width="16" height="46" fill="white" rx="3"/>
+    <rect x="27" y="42" width="46" height="16" fill="white" rx="3"/>
+    
+    <!-- AI Circuit Pattern -->
+    <circle cx="35" cy="35" r="2.5" fill="#00A86B"/>
+    <circle cx="65" cy="35" r="2.5" fill="#00A86B"/>
+    <circle cx="35" cy="65" r="2.5" fill="#00A86B"/>
+    <circle cx="65" cy="65" r="2.5" fill="#00A86B"/>
+    
+    <!-- Connecting Lines -->
+    <line x1="35" y1="35" x2="42" y2="42" stroke="#00A86B" stroke-width="1.5"/>
+    <line x1="65" y1="35" x2="58" y2="42" stroke="#00A86B" stroke-width="1.5"/>
+    <line x1="35" y1="65" x2="42" y2="58" stroke="#00A86B" stroke-width="1.5"/>
+    <line x1="65" y1="65" x2="58" y2="58" stroke="#00A86B" stroke-width="1.5"/>
+  </g>
+  
+  <!-- MedTrust Text -->
+  <text x="120" y="55" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#0066CC">
+    MedTrust
+  </text>
+  
+  <!-- Tagline -->
+  <text x="120" y="80" font-family="Arial, sans-serif" font-size="14" fill="#666666">
+    AI-Powered Healthcare Intelligence
+  </text>
+  
+  <!-- HAI Badge -->
+  <g transform="translate(120, 90)">
+    <rect x="0" y="0" width="80" height="20" rx="10" fill="#00A86B"/>
+    <text x="40" y="14" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">
+      HAI - Health AI
+    </text>
+  </g>
+</svg>

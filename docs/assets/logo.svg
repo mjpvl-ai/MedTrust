@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#0066CC" opacity="0.1"/>
+  
+  <!-- Main Circle -->
+  <circle cx="100" cy="100" r="85" fill="#0066CC"/>
+  
+  <!-- Medical Cross -->
+  <rect x="85" y="55" width="30" height="90" fill="white" rx="5"/>
+  <rect x="55" y="85" width="90" height="30" fill="white" rx="5"/>
+  
+  <!-- AI Circuit Pattern -->
+  <circle cx="70" cy="70" r="4" fill="#00A86B"/>
+  <circle cx="130" cy="70" r="4" fill="#00A86B"/>
+  <circle cx="70" cy="130" r="4" fill="#00A86B"/>
+  <circle cx="130" cy="130" r="4" fill="#00A86B"/>
+  
+  <!-- Connecting Lines -->
+  <line x1="70" y1="70" x2="85" y2="85" stroke="#00A86B" stroke-width="2"/>
+  <line x1="130" y1="70" x2="115" y2="85" stroke="#00A86B" stroke-width="2"/>
+  <line x1="70" y1="130" x2="85" y2="115" stroke="#00A86B" stroke-width="2"/>
+  <line x1="130" y1="130" x2="115" y2="115" stroke="#00A86B" stroke-width="2"/>
+  
+  <!-- Heart Pulse Line -->
+  <path d="M 40 100 L 60 100 L 70 85 L 80 115 L 90 100 L 160 100" 
+        stroke="#FF6B35" stroke-width="3" fill="none" opacity="0.3"/>
+</svg>

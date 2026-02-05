@@ -18,6 +18,18 @@
 
 ---
 
+> **📋 AWS AI for Bharat Hackathon 2026 - Submission Links**
+> 
+> **GitHub Repository**: https://github.com/mjpvl-ai/MedTrust
+> 
+> **📖 Requirements Document**: [requirements.md](https://github.com/mjpvl-ai/MedTrust/blob/main/docs/requirements.md)  
+> **🏗️ Design Document**: [design.md](https://github.com/mjpvl-ai/MedTrust/blob/main/docs/design.md)  
+> **📐 Architecture Diagrams**: [ARCHITECTURE_DIAGRAM.md](https://github.com/mjpvl-ai/MedTrust/blob/main/docs/ARCHITECTURE_DIAGRAM.md)
+> 
+> **Team**: HAI - Health AI | **Developer**: Jayaprakash Murugan
+
+---
+
 ## 🎯 Problem Statement
 
 **70% of Indians struggle to understand their medical prescriptions.** Doctor's handwriting, medical jargon, and language barriers create confusion, leading to:

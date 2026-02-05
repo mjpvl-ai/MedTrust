@@ -67,31 +67,53 @@
 
 ### High-Level Overview
 
-```
-┌─────────────────────────────────────┐
-│   PATIENT DEVICE (Local-First)     │
-│   • React Native + TypeScript      │
-│   • Tesseract OCR (Offline)        │
-│   • SQLite Database                │
-│   • AES-256 Encryption             │
-└────────────┬────────────────────────┘
-             ↓ (Optional, Encrypted)
-┌─────────────────────────────────────┐
-│      AWS CLOUD (Enhancement)        │
-│   • Amazon Bedrock (Claude 3)      │
-│   • Amazon Textract (OCR)          │
-│   • Lambda (Serverless)            │
-│   • DynamoDB + RDS                 │
-│   • S3 (Encrypted Storage)         │
-└────────────┬────────────────────────┘
-             ↓
-┌─────────────────────────────────────┐
-│   GOVERNMENT DATA SOURCES           │
-│   • CDSCO (Drug Approvals)         │
-│   • ICMR (Guidelines)              │
-│   • NPPA (Pricing)                 │
-│   • PubMed (Research)              │
-└─────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph "Patient Layer - Mobile Device"
+        A[React Native App] --> B[Local Processing Engine]
+        B --> C[Tesseract OCR]
+        B --> D[SQLite Database]
+        B --> E[AES-256 Encryption]
+        A --> F[Camera Integration]
+        A --> G[UI/UX Components]
+    end
+    
+    subgraph "AWS Cloud Layer - Optional Enhancement"
+        H[API Gateway] --> I[Lambda Functions]
+        I --> J[Amazon Bedrock - Claude 3]
+        I --> K[Amazon Textract]
+        I --> L[Amazon Comprehend Medical]
+        I --> M[S3 Encrypted Storage]
+        I --> N[DynamoDB]
+        I --> O[RDS PostgreSQL]
+    end
+    
+    subgraph "Government Data Layer"
+        P[CDSCO API]
+        Q[ICMR Guidelines]
+        R[NPPA Pricing]
+        S[PubMed Research]
+    end
+    
+    subgraph "Doctor Layer - Web Dashboard"
+        T[React Web App]
+        T --> U[Patient Monitoring]
+        T --> V[Research Integration]
+        T --> W[Clinical Decision Support]
+        T --> X[Analytics Dashboard]
+    end
+    
+    B -.Optional Encrypted.-> H
+    I --> P
+    I --> Q
+    I --> R
+    I --> S
+    H --> T
+    
+    style A fill:#0066CC,color:#fff
+    style H fill:#FF9900,color:#fff
+    style T fill:#00A86B,color:#fff
+    style P fill:#FF6B35,color:#fff
 ```
 
 **Key Principles:**
@@ -100,8 +122,6 @@
 - 🔐 **Secure**: End-to-end encryption, HIPAA compliant
 - 📈 **Scalable**: Serverless architecture, handles 1M+ users
 - 🌍 **Accessible**: 22 languages, voice output, works on low-end devices
-
-📐 **[View Detailed Architecture Diagrams](docs/ARCHITECTURE_DIAGRAM.md)** - Complete system, data flow, security, deployment, and scalability diagrams
 
 📐 **[View Detailed Architecture Diagrams](docs/ARCHITECTURE_DIAGRAM.md)** - Complete system, data flow, security, deployment, and scalability diagrams
 

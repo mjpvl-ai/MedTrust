@@ -65,6 +65,8 @@
 
 ## 🏗️ Architecture
 
+### High-Level Overview
+
 ```
 ┌─────────────────────────────────────┐
 │   PATIENT DEVICE (Local-First)     │
@@ -98,6 +100,10 @@
 - 🔐 **Secure**: End-to-end encryption, HIPAA compliant
 - 📈 **Scalable**: Serverless architecture, handles 1M+ users
 - 🌍 **Accessible**: 22 languages, voice output, works on low-end devices
+
+📐 **[View Detailed Architecture Diagrams](docs/ARCHITECTURE_DIAGRAM.md)** - Complete system, data flow, security, deployment, and scalability diagrams
+
+📐 **[View Detailed Architecture Diagrams](docs/ARCHITECTURE_DIAGRAM.md)** - Complete system, data flow, security, deployment, and scalability diagrams
 
 ---
 
@@ -150,14 +156,11 @@ npm run start:local
 
 ## 📚 Documentation
 
+- [📐 Architecture Diagrams](docs/ARCHITECTURE_DIAGRAM.md) - **Complete visual architecture**
 - [📖 Requirements Specification](docs/requirements.md)
 - [🏗️ Architecture & Design](docs/design.md)
 - [✅ Implementation Tasks](docs/tasks.md)
-- [🧪 Testing Strategy](docs/testing.md)
-- [🔐 Security & Privacy](docs/security.md)
-- [🌐 API Documentation](docs/api.md)
-- [🎨 UI/UX Guidelines](docs/ui-guidelines.md)
-- [🚀 Deployment Guide](docs/deployment.md)
+- [📊 Project Structure](docs/PROJECT_STRUCTURE.md)
 
 ---
 
@@ -264,18 +267,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **HAI - Health AI**
 
-- **[Your Name]** - Team Lead - [GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
-- **[Team Member 2]** - [Role] - [GitHub](https://github.com/username) | [LinkedIn](https://linkedin.com/in/profile)
-- **[Team Member 3]** - [Role] - [GitHub](https://github.com/username) | [LinkedIn](https://linkedin.com/in/profile)
+- **Jayaprakash Murugan** - Founder & Solo Developer - [GitHub](https://github.com/mjpvl-ai)
 
 ---
 
 ## 📞 Contact
 
-- **Email**: contact@medtrust.health
-- **Website**: [medtrust.health](https://medtrust.health)
-- **Twitter**: [@MedTrustHealth](https://twitter.com/MedTrustHealth)
-- **LinkedIn**: [MedTrust](https://linkedin.com/company/medtrust)
+- **Developer**: Jayaprakash Murugan
+- **GitHub**: [github.com/mjpvl-ai](https://github.com/mjpvl-ai)
+- **Project**: [github.com/mjpvl-ai/MedTrust](https://github.com/mjpvl-ai/MedTrust)
 
 ---
 

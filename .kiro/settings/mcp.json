@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "aws-diagram": {
+      "command": "uvx",
+      "args": ["awslabs.aws-diagram-mcp-server@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "drawio": {
+      "command": "npx",
+      "args": ["-y", "drawio-mcp-server"],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
